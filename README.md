@@ -39,5 +39,4 @@ Accuracy of best run HyperDrive : 0.9074355083459787
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
 ## Proof of cluster clean up
-**If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
-**Image of cluster marked for deletion**
+Deleted on notebook: cpu_cluster.delete()
