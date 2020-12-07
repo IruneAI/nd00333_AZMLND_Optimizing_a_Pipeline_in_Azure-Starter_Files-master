@@ -13,7 +13,14 @@ The main dataset for this project is the BankMarketing dataset ("https://automls
 Concretely, a **LR baseline** was provided through train.py script. This is totally parametrizable and will enable the Hyperdrive to explore a hyperparameter space using the sampling method that we choose (in this case it was **RandomParameterSampling** choosen). After tuning the hyperparameters using **Hyperdrive** and getting an optimal model, the AutoML process was carried out for both comparison. The best model from both processes are saved in order to compare their performance. 
 
 
+
+
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
+
+Accuracy of best run HyperDrive : 0.9074355083459787
+
+
+
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
