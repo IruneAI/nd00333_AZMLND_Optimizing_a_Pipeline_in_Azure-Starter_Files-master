@@ -15,7 +15,7 @@ Concretely, a **LR (logistic regression) baseline** was provided through train.p
 
 
 
-**In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
+From both approaches in the pipeline (HD and AutoML) the best performing model was a AutoML. Concretely VotingEmsemble with an accuracy of 0.91763. See below both accuracies of best runs on both approaches.
 
 Accuracy of best run HyperDrive : 0.9074355083459787
 Accuracy of best model AutoML (VotingEnsemble) : 0.91763
