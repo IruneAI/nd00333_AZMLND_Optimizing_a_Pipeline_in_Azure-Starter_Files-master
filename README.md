@@ -35,7 +35,7 @@ Early stopping chosen was **MedianStoppingPolicy** based on Google Vizier: A Ser
 
 
 ## AutoML
-AutoML trained several models based on target metric (Accuracy). Among others there were StackEnsemble, StandardScalerWrapper, XGBoostClassifier, LightGBM, MaxAbScaler...resulting best model VotingEmsemble with aforementioned Accuracy (see images/automl_train_models.png for further details and images/automl_metrics_and_explanation/). 
+AutoML trained several models based on target metric (Accuracy). Among others there were StackEnsemble, StandardScalerWrapper, XGBoostClassifier, LightGBM, MaxAbScaler...resulting best model VotingEmsemble with aforementioned Accuracy (see images/automl_train_models.png for further details and /images/automl_metrics_and_explanation for additional metrics and model explanation). 
 
 
 ## Pipeline comparison
