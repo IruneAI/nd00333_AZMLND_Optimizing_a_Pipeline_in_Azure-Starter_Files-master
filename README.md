@@ -25,8 +25,8 @@ From both approaches in the pipeline (HD and AutoML) the best performing model w
 
 
 ## Scikit-learn Pipeline
-**Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
 
+For skit-learn pipeline, traditional ML data split was carried out (80-20) for train-test dataset on **train.py** after dealing with categorical data (one-hot encoding). **Train.py** was fully parametrizable to enable Hyperdrive the exploration of a hyperparameter search space during fine-tuning. Hyperparameters explored were '--C' Inverse of regularization strength and '--max_iter' Maximum number of iterations to converge. Classification algorithm was LogisticRegression. 
 
 
 The parameter sampler chosen is **RandomSamplingParameter**. It supports discrete and continuous hyperparameters. It is perfect for first approaches and for non exhaustive search space exploration (based on sampling distribution selected). This makes this approach less expensive than other choices as GridSampling.
