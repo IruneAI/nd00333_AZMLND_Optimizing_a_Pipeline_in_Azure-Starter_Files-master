@@ -46,7 +46,10 @@ Please refer to 'images' folder for further metrics and screenshots.
 
 
 ## Future work
-**What are some areas of improvement for future experiments? Why might these improvements help the model?**
+There are some areas of improvement identified for future experiments:
+1- Additional hyperparameters configurations exploration could be carried out under Hyperdrive pipeline.
+2- From AutoML outputs data imbalance and bias has been identified. Further data exploration and some corrective measures would help on that. Bias mitigation will lead us to more realistic results.
+3- In case of having enough resources a more exhaustive hyperparameter grid exploration through GridSampling could be done. 
 
 ## Proof of cluster clean up
 Deleted on notebook: cpu_cluster.delete()
